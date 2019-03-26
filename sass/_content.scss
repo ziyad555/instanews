@@ -1,0 +1,52 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #ffffff;
+    background: black;
+}
+h1 {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    line-height: 1;
+    color: white;
+}
+.font-color {
+    text-decoration: none;
+    color: white;
+}
+.articleContainer{
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    height: 400px;
+    margin: 10rem;
+}
+.new-york-times {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+.copy-rights{
+    display: flex;
+    color: #c2c2c2;
+    height: 50px;                                                             
+    justify-content: center;
+ }
+.section.options {
+    margin-left: auto;
+    display: block;
+    width: 150px;
+    margin-right: auto;
+}
+p{
+text-align: center;
+margin-bottom: 1rem;
+}
+select#dropdown-menu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    margin-bottom: 0rem;
+}
